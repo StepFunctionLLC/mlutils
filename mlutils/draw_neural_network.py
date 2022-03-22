@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def draw_neural_net(layer_sizes=None):
+def draw_neural_network(layer_sizes=None):
     '''
     Draw a neural network cartoon using matplotilb.
 
