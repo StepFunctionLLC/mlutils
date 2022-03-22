@@ -62,4 +62,4 @@ def draw_neural_network(layer_sizes=None):
 
 if __name__ == "__main__":
     import sys
-    draw_neural_net(int(sys.argv[1]))
+    draw_neural_network(int(sys.argv[1]))
