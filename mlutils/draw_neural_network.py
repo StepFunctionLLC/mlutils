@@ -52,7 +52,10 @@ def draw_neural_network(layer_sizes=None):
                 line = plt.Line2D([n*h_spacing + left, (n + 1)*h_spacing + left],
                                   [layer_top_a - m*v_spacing, layer_top_b - o*v_spacing], c='k')
                 ax.add_artist(line)
-
+    
+    # Hide the axes
+    plt.axis('off')
+    
     plt.show()
 
     return (fig, ax)
